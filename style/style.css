@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background:#000000cf;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#f0f8ff;
+}
+
+.contador{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background:#000000b0;
+    border-radius: 10px;
+    padding:10px 20px;
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+    color:#fff;
+    background:#000;
+    border:0;
+    border-radius: 50%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.numero{
+    font-size: 100px;
+    color:#fff;
+}
+
+#btn-reset{
+    width: 200px;
+    background:#6804ff;
+    border:0;
+    border-radius: 5px;
+    padding:10px 40px;
+    font-size: 20px;
+    color:#fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#btn-reset:active{
+    transform: scale(1.05);
+}
